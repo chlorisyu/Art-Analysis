@@ -1,0 +1,209 @@
+@prefix : <urn:webprotege:ontology:ff8cdf2d-1a1e-4f60-b6a7-b9986f1461ef#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:ff8cdf2d-1a1e-4f60-b6a7-b9986f1461ef> .
+
+<urn:webprotege:ontology:ff8cdf2d-1a1e-4f60-b6a7-b9986f1461ef> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R76RvElP1X8hZF4dnSpZVoy
+<http://webprotege.stanford.edu/R76RvElP1X8hZF4dnSpZVoy> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "UniqueKeyword" .
+
+
+###  http://webprotege.stanford.edu/R8uZFHfoMIDNWFFBxtO7fZ4
+<http://webprotege.stanford.edu/R8uZFHfoMIDNWFFBxtO7fZ4> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "DepictedView" .
+
+
+###  http://webprotege.stanford.edu/R9OZtj2LvuHMbKaTqPcIxCa
+<http://webprotege.stanford.edu/R9OZtj2LvuHMbKaTqPcIxCa> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "HasView" .
+
+
+###  http://webprotege.stanford.edu/R9TaBk029o95ee0ezib2uN8
+<http://webprotege.stanford.edu/R9TaBk029o95ee0ezib2uN8> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "DepictedStyle" .
+
+
+###  http://webprotege.stanford.edu/RBC54vDDKCqqFXcwQFJOxk
+<http://webprotege.stanford.edu/RBC54vDDKCqqFXcwQFJOxk> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "HasKeyword" .
+
+
+###  http://webprotege.stanford.edu/RBd7Cbyx4joUx9YUoDU0Q1b
+<http://webprotege.stanford.edu/RBd7Cbyx4joUx9YUoDU0Q1b> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "HasDepictedViewKeyword" .
+
+
+###  http://webprotege.stanford.edu/RBzusMopNJf3qDXFdeHzW8e
+<http://webprotege.stanford.edu/RBzusMopNJf3qDXFdeHzW8e> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "Uniqueness" .
+
+
+###  http://webprotege.stanford.edu/RCVDYkZHZMFNWC5tF2uQU5K
+<http://webprotege.stanford.edu/RCVDYkZHZMFNWC5tF2uQU5K> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "HasName" .
+
+
+###  http://webprotege.stanford.edu/RCoAFSnmT5ILCsYATgWCaVB
+<http://webprotege.stanford.edu/RCoAFSnmT5ILCsYATgWCaVB> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "HasStyle" .
+
+
+###  http://webprotege.stanford.edu/RDS8Rj62Z6G8LsgO7EreeWd
+<http://webprotege.stanford.edu/RDS8Rj62Z6G8LsgO7EreeWd> rdf:type owl:AnnotationProperty ;
+                                                         rdfs:label "HasSubKeyword" .
+
+
+###  http://webprotege.stanford.edu/REvl6bU1BGZMKa9Wok6bhs
+<http://webprotege.stanford.edu/REvl6bU1BGZMKa9Wok6bhs> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "HasSubName" .
+
+
+###  http://webprotege.stanford.edu/RJttJcKK7oa4yFGXLGMwZs
+<http://webprotege.stanford.edu/RJttJcKK7oa4yFGXLGMwZs> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "HasDescription" .
+
+
+###  http://webprotege.stanford.edu/RmXI5Oi9QW2lIRhPghpMj8
+<http://webprotege.stanford.edu/RmXI5Oi9QW2lIRhPghpMj8> rdf:type owl:AnnotationProperty ;
+                                                        rdfs:label "HasSubDescription" .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R3YrJGD4vlDW3VE7IxMRur
+<http://webprotege.stanford.edu/R3YrJGD4vlDW3VE7IxMRur> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "BelongstoSubTheme" .
+
+
+###  http://webprotege.stanford.edu/R5PQpqlA4rCNpd3fVTaKnW
+<http://webprotege.stanford.edu/R5PQpqlA4rCNpd3fVTaKnW> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "BelongstoTheme" .
+
+
+###  http://webprotege.stanford.edu/R7O7yTgu69wc7cxCY2a2OZj
+<http://webprotege.stanford.edu/R7O7yTgu69wc7cxCY2a2OZj> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "HasSubTheme" .
+
+
+###  http://webprotege.stanford.edu/R8HVZU003TglShAwjcBNgYb
+<http://webprotege.stanford.edu/R8HVZU003TglShAwjcBNgYb> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "byArtist" .
+
+
+###  http://webprotege.stanford.edu/R8soD246tMGT5gGGm08UfH6
+<http://webprotege.stanford.edu/R8soD246tMGT5gGGm08UfH6> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "Creates" .
+
+
+###  http://webprotege.stanford.edu/RBfsCp96qkyTykugd9fi137
+<http://webprotege.stanford.edu/RBfsCp96qkyTykugd9fi137> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "Depicts" .
+
+
+###  http://webprotege.stanford.edu/RCTiwjhLgO0dGfDlygdFINq
+<http://webprotege.stanford.edu/RCTiwjhLgO0dGfDlygdFINq> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "DepictsTheme" .
+
+
+###  http://webprotege.stanford.edu/RCo3uI07RhMd7wKJ99yKDNM
+<http://webprotege.stanford.edu/RCo3uI07RhMd7wKJ99yKDNM> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "exhibtsUniqueAttributes" .
+
+
+###  http://webprotege.stanford.edu/RDl8uzwQPsEBthI0zBzkRAj
+<http://webprotege.stanford.edu/RDl8uzwQPsEBthI0zBzkRAj> rdf:type owl:ObjectProperty ;
+                                                         rdfs:label "exhibitsUnique" .
+
+
+###  http://webprotege.stanford.edu/RNp6cBBNulmPB3PwozaeK2
+<http://webprotege.stanford.edu/RNp6cBBNulmPB3PwozaeK2> rdf:type owl:ObjectProperty ;
+                                                        rdfs:label "withStyle" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R7Q4l9lDUQSfmFJVyLuWbCW
+<http://webprotege.stanford.edu/R7Q4l9lDUQSfmFJVyLuWbCW> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RhXS5Wxe7cvMQHOi3RX8O8> ,
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R3YrJGD4vlDW3VE7IxMRur> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RhXS5Wxe7cvMQHOi3RX8O8>
+                                                                         ] ;
+                                                         <http://webprotege.stanford.edu/RBd7Cbyx4joUx9YUoDU0Q1b> "DepictedViewKeyword"^^xsd:string ;
+                                                         rdfs:label "Depictedview" .
+
+
+###  http://webprotege.stanford.edu/R89ejaaCHASPk8aAcK6G5qx
+<http://webprotege.stanford.edu/R89ejaaCHASPk8aAcK6G5qx> rdf:type owl:Class ;
+                                                         <http://webprotege.stanford.edu/R76RvElP1X8hZF4dnSpZVoy> "UniquenessDescription"^^xsd:string ;
+                                                         rdfs:label "UniqueAttributes" .
+
+
+###  http://webprotege.stanford.edu/R8Bjlm0q7ENt0f95boqatc6
+<http://webprotege.stanford.edu/R8Bjlm0q7ENt0f95boqatc6> rdf:type owl:Class ;
+                                                         <http://webprotege.stanford.edu/RBC54vDDKCqqFXcwQFJOxk> "ThemeKeyword"^^xsd:string ;
+                                                         rdfs:label "Theme" .
+
+
+###  http://webprotege.stanford.edu/RC7lNIfFsF4ZFGmcEF2BaXj
+<http://webprotege.stanford.edu/RC7lNIfFsF4ZFGmcEF2BaXj> rdf:type owl:Class ;
+                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty <http://webprotege.stanford.edu/R8soD246tMGT5gGGm08UfH6> ;
+                                                                           owl:someValuesFrom <http://webprotege.stanford.edu/RV30UnwXpBueOg9GduqCaj>
+                                                                         ] ;
+                                                         <http://webprotege.stanford.edu/RCVDYkZHZMFNWC5tF2uQU5K> "ArtistName"^^xsd:string ;
+                                                         rdfs:label "Artist" .
+
+
+###  http://webprotege.stanford.edu/RDE7chxfMvbQnOR2zv5lVsD
+<http://webprotege.stanford.edu/RDE7chxfMvbQnOR2zv5lVsD> rdf:type owl:Class ;
+                                                         <http://webprotege.stanford.edu/RBC54vDDKCqqFXcwQFJOxk> "StyleKeyword"^^xsd:string ;
+                                                         rdfs:label "Style" .
+
+
+###  http://webprotege.stanford.edu/RV30UnwXpBueOg9GduqCaj
+<http://webprotege.stanford.edu/RV30UnwXpBueOg9GduqCaj> rdf:type owl:Class ;
+                                                        rdfs:subClassOf owl:Thing ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RBfsCp96qkyTykugd9fi137> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R7Q4l9lDUQSfmFJVyLuWbCW>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RCo3uI07RhMd7wKJ99yKDNM> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R89ejaaCHASPk8aAcK6G5qx>
+                                                                        ] ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/RNp6cBBNulmPB3PwozaeK2> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/RDE7chxfMvbQnOR2zv5lVsD>
+                                                                        ] ;
+                                                        <http://webprotege.stanford.edu/R9OZtj2LvuHMbKaTqPcIxCa> "viewDescription"^^xsd:string ;
+                                                        <http://webprotege.stanford.edu/RBzusMopNJf3qDXFdeHzW8e> "UniquenessDescription"^^xsd:string ;
+                                                        <http://webprotege.stanford.edu/RCoAFSnmT5ILCsYATgWCaVB> "styleDescription"^^xsd:string ;
+                                                        rdfs:label "Depiction" .
+
+
+###  http://webprotege.stanford.edu/RhXS5Wxe7cvMQHOi3RX8O8
+<http://webprotege.stanford.edu/RhXS5Wxe7cvMQHOi3RX8O8> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://webprotege.stanford.edu/R8Bjlm0q7ENt0f95boqatc6> ,
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty <http://webprotege.stanford.edu/R5PQpqlA4rCNpd3fVTaKnW> ;
+                                                                          owl:someValuesFrom <http://webprotege.stanford.edu/R8Bjlm0q7ENt0f95boqatc6>
+                                                                        ] ;
+                                                        <http://webprotege.stanford.edu/RDS8Rj62Z6G8LsgO7EreeWd> "SubThemeKeyword"^^xsd:string ;
+                                                        rdfs:label "SubTheme"^^xsd:string .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
