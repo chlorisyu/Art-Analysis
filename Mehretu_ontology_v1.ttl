@@ -1,0 +1,342 @@
+@prefix : <urn:webprotege:ontology:628e27e0-4390-499e-89ed-39459fe27fe2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:628e27e0-4390-499e-89ed-39459fe27fe2> .
+
+<urn:webprotege:ontology:628e27e0-4390-499e-89ed-39459fe27fe2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R88ymtZL5SbNeOR5G4lG9fG
+<http://webprotege.stanford.edu/R88ymtZL5SbNeOR5G4lG9fG> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RDn5oDBScDWzGZfux3cGJi5> ;
+                                                         rdfs:label "ExhibitedAt" .
+
+
+###  http://webprotege.stanford.edu/R8BceIuzKDaVYS2THBVvCbe
+<http://webprotege.stanford.edu/R8BceIuzKDaVYS2THBVvCbe> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBHBt2h4tVkL8oHvqauT7Pp> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj> ;
+                                                         rdfs:label "whenExhibition" .
+
+
+###  http://webprotege.stanford.edu/R90I4TaVXcqvWzHhMKan20q
+<http://webprotege.stanford.edu/R90I4TaVXcqvWzHhMKan20q> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9e1AlEIT8XsfAVae62omuL> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RB9YswgNEbgyFmv8Vl4Z7pu> ;
+                                                         rdfs:label "StyleHasFeature"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/R9FNy2q86Ii7I4kPi3zXgEK
+<http://webprotege.stanford.edu/R9FNy2q86Ii7I4kPi3zXgEK> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R9hAAhP4isn8iOZHIggC82Q> ;
+                                                         rdfs:label "AuctionLocated" .
+
+
+###  http://webprotege.stanford.edu/R9IOQQTbkJPs3HpqM73dmCq
+<http://webprotege.stanford.edu/R9IOQQTbkJPs3HpqM73dmCq> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RBHBt2h4tVkL8oHvqauT7Pp> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> ;
+                                                         rdfs:label "whenAuction" .
+
+
+###  http://webprotege.stanford.edu/R9VftlDAHCcry2WDFProqWJ
+<http://webprotege.stanford.edu/R9VftlDAHCcry2WDFProqWJ> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY> ;
+                                                         rdfs:label "HasExhibitionTheme"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RBK4XVrhhNQMkxVNtakpKh6
+<http://webprotege.stanford.edu/RBK4XVrhhNQMkxVNtakpKh6> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCqdLYMtpuyJkwQkJbYGIL> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RDY1SWMpUMrXzsYDaoZ3j1v> ;
+                                                         rdfs:label "PriceForArtwork" .
+
+
+###  http://webprotege.stanford.edu/RBTziQAGsp1cdoPqjiRjAAn
+<http://webprotege.stanford.edu/RBTziQAGsp1cdoPqjiRjAAn> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RDY1SWMpUMrXzsYDaoZ3j1v> ;
+                                                         rdfs:label "AuctionedArtwork" .
+
+
+###  http://webprotege.stanford.edu/RCk3TkvHP5JN8jaCWPYIPf
+<http://webprotege.stanford.edu/RCk3TkvHP5JN8jaCWPYIPf> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RDn5oDBScDWzGZfux3cGJi5> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/R9hAAhP4isn8iOZHIggC82Q> ;
+                                                        rdfs:label "GalleryLocated"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RDhss5IbbE0SvGbkk1hUKPU
+<http://webprotege.stanford.edu/RDhss5IbbE0SvGbkk1hUKPU> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RDY1SWMpUMrXzsYDaoZ3j1v> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY> ;
+                                                         rdfs:label "HasTheme" .
+
+
+###  http://webprotege.stanford.edu/RDrSqNudaysb2ft4x9Mx9tv
+<http://webprotege.stanford.edu/RDrSqNudaysb2ft4x9Mx9tv> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RDZv8KQqqQ3EWde2Bh3Z2Mz> ;
+                                                         rdfs:label "ExhibitedMedium" .
+
+
+###  http://webprotege.stanford.edu/RDyYQM6NVzdXIAo8qSvfISm
+<http://webprotege.stanford.edu/RDyYQM6NVzdXIAo8qSvfISm> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> ;
+                                                         rdfs:range <http://webprotege.stanford.edu/RCBM5glftIvXDhtbDF1iPPV> ;
+                                                         rdfs:label "fromAuctionHouse" .
+
+
+###  http://webprotege.stanford.edu/ROqypa4wavWmD63ybHEwu7
+<http://webprotege.stanford.edu/ROqypa4wavWmD63ybHEwu7> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/RCqdLYMtpuyJkwQkJbYGIL> ;
+                                                        rdfs:label "HasPrice" .
+
+
+###  http://webprotege.stanford.edu/RbSxibzvis1xMa1tEcYmsi
+<http://webprotege.stanford.edu/RbSxibzvis1xMa1tEcYmsi> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RB9YswgNEbgyFmv8Vl4Z7pu> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY> ;
+                                                        rdfs:label "DepictsTheme" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R71HfnoviZXolW7tjvNl1oE
+<http://webprotege.stanford.edu/R71HfnoviZXolW7tjvNl1oE> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RB9YswgNEbgyFmv8Vl4Z7pu> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "FeatureSummary" .
+
+
+###  http://webprotege.stanford.edu/R7hdfsG4wejsupKpXSQ78dX
+<http://webprotege.stanford.edu/R7hdfsG4wejsupKpXSQ78dX> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCqdLYMtpuyJkwQkJbYGIL> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "PriceComment" .
+
+
+###  http://webprotege.stanford.edu/R8eMghkEck3i06eMZnREBjc
+<http://webprotege.stanford.edu/R8eMghkEck3i06eMZnREBjc> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RDn5oDBScDWzGZfux3cGJi5> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "GalleryTitle" .
+
+
+###  http://webprotege.stanford.edu/R8kzlYeLHWlpeC4DSOxjqj3
+<http://webprotege.stanford.edu/R8kzlYeLHWlpeC4DSOxjqj3> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9e1AlEIT8XsfAVae62omuL> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "StyleCategory" .
+
+
+###  http://webprotege.stanford.edu/R9gjvKUfsOslaomQ5qC3gDG
+<http://webprotege.stanford.edu/R9gjvKUfsOslaomQ5qC3gDG> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCBM5glftIvXDhtbDF1iPPV> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "AuctionHouseTitle" .
+
+
+###  http://webprotege.stanford.edu/R9rBUB9GPGKvMCVdjV0EkgD
+<http://webprotege.stanford.edu/R9rBUB9GPGKvMCVdjV0EkgD> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "ThemeOverview" .
+
+
+###  http://webprotege.stanford.edu/RBW3bREZiDkiHZ7Z4hGVPF7
+<http://webprotege.stanford.edu/RBW3bREZiDkiHZ7Z4hGVPF7> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "OverallTheme" .
+
+
+###  http://webprotege.stanford.edu/RBwSlnbOgWsGNN1PfvPTkl4
+<http://webprotege.stanford.edu/RBwSlnbOgWsGNN1PfvPTkl4> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RDZv8KQqqQ3EWde2Bh3Z2Mz> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "MediumDescription" .
+
+
+###  http://webprotege.stanford.edu/RCDLTUZRoCqxBgxl4jEHkYh
+<http://webprotege.stanford.edu/RCDLTUZRoCqxBgxl4jEHkYh> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "AuctionComment" .
+
+
+###  http://webprotege.stanford.edu/RCHR1kpTmfU7NNn1g9sUVKz
+<http://webprotege.stanford.edu/RCHR1kpTmfU7NNn1g9sUVKz> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RCqdLYMtpuyJkwQkJbYGIL> ;
+                                                         rdfs:range xsd:decimal ;
+                                                         rdfs:label "PriceFigure" .
+
+
+###  http://webprotege.stanford.edu/RCsjsIBFUgpBJXRAFxusIU
+<http://webprotege.stanford.edu/RCsjsIBFUgpBJXRAFxusIU> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "ExhibitionTitle" .
+
+
+###  http://webprotege.stanford.edu/RCuksVTq8w4aGJyfFsdJrL1
+<http://webprotege.stanford.edu/RCuksVTq8w4aGJyfFsdJrL1> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RB9YswgNEbgyFmv8Vl4Z7pu> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "FeatureDetail" .
+
+
+###  http://webprotege.stanford.edu/RDY1ouclE0DArRsYeEynybJ
+<http://webprotege.stanford.edu/RDY1ouclE0DArRsYeEynybJ> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "ThemeCategory" .
+
+
+###  http://webprotege.stanford.edu/RFAsXY1AbHp16YZsn3jl0d
+<http://webprotege.stanford.edu/RFAsXY1AbHp16YZsn3jl0d> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RCqdLYMtpuyJkwQkJbYGIL> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "PriceUnitString" .
+
+
+###  http://webprotege.stanford.edu/RNQW4p2VXDzqvgclC4JpHa
+<http://webprotege.stanford.edu/RNQW4p2VXDzqvgclC4JpHa> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "ThemeRepArtworks" .
+
+
+###  http://webprotege.stanford.edu/RYNfY5dV5eR4g8AGbMVaaj
+<http://webprotege.stanford.edu/RYNfY5dV5eR4g8AGbMVaaj> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "AuctionTitle" .
+
+
+###  http://webprotege.stanford.edu/Rd2NzQA9KtB98m9ORXg54I
+<http://webprotege.stanford.edu/Rd2NzQA9KtB98m9ORXg54I> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R9hAAhP4isn8iOZHIggC82Q> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:label "LocationDetail" .
+
+
+###  http://webprotege.stanford.edu/RlnC9pZQtlDuv5sinefNtd
+<http://webprotege.stanford.edu/RlnC9pZQtlDuv5sinefNtd> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:subPropertyOf owl:topDataProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/RBHBt2h4tVkL8oHvqauT7Pp> ;
+                                                        rdfs:range xsd:integer ;
+                                                        rdfs:label "YearNumber"^^xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY
+<http://webprotege.stanford.edu/R8HWRjRkO3t0qC55qBiMEpY> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "Theme" .
+
+
+###  http://webprotege.stanford.edu/R9e1AlEIT8XsfAVae62omuL
+<http://webprotege.stanford.edu/R9e1AlEIT8XsfAVae62omuL> rdf:type owl:Class ;
+                                                         rdfs:label "Style" .
+
+
+###  http://webprotege.stanford.edu/R9hAAhP4isn8iOZHIggC82Q
+<http://webprotege.stanford.edu/R9hAAhP4isn8iOZHIggC82Q> rdf:type owl:Class ;
+                                                         rdfs:label "Location" .
+
+
+###  http://webprotege.stanford.edu/RB9YswgNEbgyFmv8Vl4Z7pu
+<http://webprotege.stanford.edu/RB9YswgNEbgyFmv8Vl4Z7pu> rdf:type owl:Class ;
+                                                         rdfs:label "ArtisticFeature"^^xsd:string .
+
+
+###  http://webprotege.stanford.edu/RBHBt2h4tVkL8oHvqauT7Pp
+<http://webprotege.stanford.edu/RBHBt2h4tVkL8oHvqauT7Pp> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing ;
+                                                         rdfs:label "Year" .
+
+
+###  http://webprotege.stanford.edu/RCBM5glftIvXDhtbDF1iPPV
+<http://webprotege.stanford.edu/RCBM5glftIvXDhtbDF1iPPV> rdf:type owl:Class ;
+                                                         rdfs:label "AuctionHouse" .
+
+
+###  http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G
+<http://webprotege.stanford.edu/RCE2ONOKXrGKjGZL0IPs76G> rdf:type owl:Class ;
+                                                         rdfs:label "Auction" .
+
+
+###  http://webprotege.stanford.edu/RCqdLYMtpuyJkwQkJbYGIL
+<http://webprotege.stanford.edu/RCqdLYMtpuyJkwQkJbYGIL> rdf:type owl:Class ;
+                                                        rdfs:label "AuctionPrice" .
+
+
+###  http://webprotege.stanford.edu/RDY1SWMpUMrXzsYDaoZ3j1v
+<http://webprotege.stanford.edu/RDY1SWMpUMrXzsYDaoZ3j1v> rdf:type owl:Class ;
+                                                         rdfs:label "AuctionArtworks" .
+
+
+###  http://webprotege.stanford.edu/RDZv8KQqqQ3EWde2Bh3Z2Mz
+<http://webprotege.stanford.edu/RDZv8KQqqQ3EWde2Bh3Z2Mz> rdf:type owl:Class ;
+                                                         rdfs:label "Medium" .
+
+
+###  http://webprotege.stanford.edu/RDn5oDBScDWzGZfux3cGJi5
+<http://webprotege.stanford.edu/RDn5oDBScDWzGZfux3cGJi5> rdf:type owl:Class ;
+                                                         rdfs:label "Gallery" .
+
+
+###  http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj
+<http://webprotege.stanford.edu/RXNBDqLhzkpyENqL9XDhdj> rdf:type owl:Class ;
+                                                        rdfs:subClassOf owl:Thing ;
+                                                        rdfs:label "Exhibition" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
