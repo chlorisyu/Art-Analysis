@@ -1,0 +1,90 @@
+@prefix : <urn:webprotege:ontology:7fe0a912-5f93-40ec-92ba-1a06265d92d0#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:7fe0a912-5f93-40ec-92ba-1a06265d92d0> .
+
+<urn:webprotege:ontology:7fe0a912-5f93-40ec-92ba-1a06265d92d0> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R5uA41jV3qv0cv7mnlIZNm
+<http://webprotege.stanford.edu/R5uA41jV3qv0cv7mnlIZNm> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://webprotege.stanford.edu/R9hm7tXDyHlboNMPkCZyob1> ;
+                                                        rdfs:range <http://webprotege.stanford.edu/RwIefnYaRfNmttNgvz4TVl> ;
+                                                        rdfs:label "Exhibition_at" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://webprotege.stanford.edu/R73Rias2gxxGDT5baOpXgf5
+<http://webprotege.stanford.edu/R73Rias2gxxGDT5baOpXgf5> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9hm7tXDyHlboNMPkCZyob1> ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "Artist_gallery_count" .
+
+
+###  http://webprotege.stanford.edu/R7XaLf3AkF2OYbgHRHrsF8Y
+<http://webprotege.stanford.edu/R7XaLf3AkF2OYbgHRHrsF8Y> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9hm7tXDyHlboNMPkCZyob1> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "Artist_name" .
+
+
+###  http://webprotege.stanford.edu/R7vF7BGaTBbK32ODaxxm4KX
+<http://webprotege.stanford.edu/R7vF7BGaTBbK32ODaxxm4KX> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RwIefnYaRfNmttNgvz4TVl> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "Gallery_location" .
+
+
+###  http://webprotege.stanford.edu/RCI2Mj66OgaD1W827eMrzOm
+<http://webprotege.stanford.edu/RCI2Mj66OgaD1W827eMrzOm> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RwIefnYaRfNmttNgvz4TVl> ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "Gallery_score" .
+
+
+###  http://webprotege.stanford.edu/RDJR2iXGgS4J1po0S1vq8jn
+<http://webprotege.stanford.edu/RDJR2iXGgS4J1po0S1vq8jn> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/RwIefnYaRfNmttNgvz4TVl> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:label "Gallery_name" .
+
+
+###  http://webprotege.stanford.edu/RDhnNYnSz1kRNg2VKqW82pk
+<http://webprotege.stanford.edu/RDhnNYnSz1kRNg2VKqW82pk> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                                         rdfs:domain <http://webprotege.stanford.edu/R9hm7tXDyHlboNMPkCZyob1> ;
+                                                         rdfs:range xsd:integer ;
+                                                         rdfs:label "Artist_gallery_score_sum" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://webprotege.stanford.edu/R9hm7tXDyHlboNMPkCZyob1
+<http://webprotege.stanford.edu/R9hm7tXDyHlboNMPkCZyob1> rdf:type owl:Class ;
+                                                         rdfs:label "Artist" .
+
+
+###  http://webprotege.stanford.edu/RwIefnYaRfNmttNgvz4TVl
+<http://webprotege.stanford.edu/RwIefnYaRfNmttNgvz4TVl> rdf:type owl:Class ;
+                                                        rdfs:subClassOf owl:Thing ;
+                                                        rdfs:label "Gallery" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
